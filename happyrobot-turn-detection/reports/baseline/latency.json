@@ -1,0 +1,33 @@
+{
+  "measurement_split": "validation",
+  "measurements": 750,
+  "warm_file_cache": true,
+  "model_only_prediction": {
+    "mean_ms": 1.2149949340770643,
+    "median_ms": 1.0313501115888357,
+    "p95_ms": 2.1776499226689316,
+    "p99_ms": 2.8947708616033196
+  },
+  "audio_load_feature_extraction_and_prediction": {
+    "mean_ms": 17.174567205210526,
+    "median_ms": 16.231349669396877,
+    "p95_ms": 28.45293493010103,
+    "p99_ms": 35.77375892084092
+  },
+  "p95_under_100ms_target": true,
+  "hardware": {
+    "platform": "Windows-10-10.0.27975-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "machine": "AMD64",
+    "logical_cpu_count": 8
+  },
+  "software": {
+    "python": "3.10.11",
+    "numpy": "2.2.3",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.6.1",
+    "scipy": "1.15.2",
+    "soundfile": "0.14.0"
+  },
+  "measurement_notes": "End-to-end includes file open/decode, feature extraction, and one-row prediction; model-only excludes audio I/O and feature extraction. Model startup/load time is excluded."
+}

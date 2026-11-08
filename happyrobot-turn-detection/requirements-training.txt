@@ -1,0 +1,2 @@
+-r requirements-serving.txt
+datasets==5.1.0

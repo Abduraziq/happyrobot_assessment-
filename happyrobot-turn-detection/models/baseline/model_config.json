@@ -1,0 +1,91 @@
+{
+  "finalized": true,
+  "feature_version": "acoustic-v1",
+  "feature_names": [
+    "duration_seconds",
+    "rms_mean",
+    "rms_std",
+    "rms_p10",
+    "rms_p90",
+    "short_time_energy_mean",
+    "short_time_energy_std",
+    "short_time_energy_p90",
+    "low_energy_fraction",
+    "zcr_mean",
+    "zcr_std",
+    "spectral_centroid_mean_hz",
+    "spectral_centroid_std_hz",
+    "spectral_bandwidth_mean_hz",
+    "spectral_bandwidth_std_hz",
+    "spectral_rolloff_mean_hz",
+    "spectral_rolloff_std_hz",
+    "spectral_flux_mean",
+    "spectral_flux_std",
+    "mfcc_00_mean",
+    "mfcc_00_std",
+    "mfcc_01_mean",
+    "mfcc_01_std",
+    "mfcc_02_mean",
+    "mfcc_02_std",
+    "mfcc_03_mean",
+    "mfcc_03_std",
+    "mfcc_04_mean",
+    "mfcc_04_std",
+    "mfcc_05_mean",
+    "mfcc_05_std",
+    "mfcc_06_mean",
+    "mfcc_06_std",
+    "mfcc_07_mean",
+    "mfcc_07_std",
+    "mfcc_08_mean",
+    "mfcc_08_std",
+    "mfcc_09_mean",
+    "mfcc_09_std",
+    "mfcc_10_mean",
+    "mfcc_10_std",
+    "mfcc_11_mean",
+    "mfcc_11_std",
+    "mfcc_12_mean",
+    "mfcc_12_std"
+  ],
+  "feature_settings": {
+    "target_sample_rate_hz": 16000,
+    "frame_length_ms": 25,
+    "frame_hop_ms": 10,
+    "fft_size": 512,
+    "mel_filter_count": 26,
+    "mfcc_count": 13
+  },
+  "random_seed": 42,
+  "selected_model": "logistic_regression",
+  "model_parameters": {
+    "max_iter": 2000,
+    "random_state": 42
+  },
+  "threshold": 0.3691340835714273,
+  "threshold_selection": "validation F1 maximization; ties prefer higher precision, then higher threshold",
+  "validation_metrics": {
+    "accuracy": 0.5426666666666666,
+    "precision": 0.524024024024024,
+    "recall": 0.9306666666666666,
+    "f1": 0.6705091258405379,
+    "confusion_matrix": [
+      [
+        58,
+        317
+      ],
+      [
+        26,
+        349
+      ]
+    ],
+    "false_positive_count": 317,
+    "false_negative_count": 26,
+    "threshold": 0.3691340835714273,
+    "roc_auc": 0.6084408888888889,
+    "precision_recall_auc": 0.6115861416131653
+  },
+  "train_samples": 3500,
+  "validation_samples": 750,
+  "test_used_for_model_selection": false
+}

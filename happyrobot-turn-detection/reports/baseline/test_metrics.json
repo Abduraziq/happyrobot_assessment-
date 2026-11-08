@@ -1,0 +1,28 @@
+{
+  "split": "test",
+  "model": "logistic_regression",
+  "threshold": 0.3691340835714273,
+  "test_samples": 750,
+  "metrics": {
+    "accuracy": 0.5213333333333333,
+    "precision": 0.5120845921450151,
+    "recall": 0.904,
+    "f1": 0.6538090646094503,
+    "confusion_matrix": [
+      [
+        52,
+        323
+      ],
+      [
+        36,
+        339
+      ]
+    ],
+    "false_positive_count": 323,
+    "false_negative_count": 36,
+    "threshold": 0.3691340835714273,
+    "roc_auc": 0.5750115555555555,
+    "precision_recall_auc": 0.5750790171344311
+  },
+  "test_used_for_model_selection_or_threshold": false
+}

@@ -1,0 +1,44 @@
+{
+  "cohort_size": 800,
+  "class_balance": {
+    "positive": 400,
+    "negative": 400
+  },
+  "model": "logistic_regression",
+  "feature_version": "acoustic-v1",
+  "decision_threshold": 0.3691340835714273,
+  "metrics": {
+    "accuracy": 0.5075,
+    "precision": 0.5045045045045045,
+    "recall": 0.84,
+    "f1": 0.6303939962476548,
+    "average_precision": 0.5654320180742798
+  },
+  "confidence_intervals_95": {
+    "method": "Stratified nonparametric bootstrap, 10000 replicates; resample with replacement within each true-label class; percentile interval.",
+    "seed": 20261107,
+    "metrics": {
+      "accuracy": {
+        "lower_95_percentile": 0.48125,
+        "upper_95_percentile": 0.53375
+      },
+      "precision": {
+        "lower_95_percentile": 0.48878839728118006,
+        "upper_95_percentile": 0.5201193403865586
+      },
+      "recall": {
+        "lower_95_percentile": 0.8025,
+        "upper_95_percentile": 0.875
+      },
+      "f1": {
+        "lower_95_percentile": 0.6089438629876308,
+        "upper_95_percentile": 0.6509888735727939
+      },
+      "average_precision": {
+        "lower_95_percentile": 0.5292884506371478,
+        "upper_95_percentile": 0.6083505062762788
+      }
+    }
+  },
+  "evaluation_scope": "Separate English-only holdout; original test report was not read for tuning."
+}

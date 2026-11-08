@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+/data/processed/audio/
+/reports/english_evaluation/run_seed42_909e604f/audio/

@@ -1,0 +1,278 @@
+{
+  "validation_errors": 343,
+  "groups": {
+    "duration_group": {
+      "2_to_5s": {
+        "samples": 177,
+        "errors": 79,
+        "error_rate": 0.4463276836158192,
+        "false_positives": 72,
+        "false_negatives": 7
+      },
+      "5_to_10s": {
+        "samples": 454,
+        "errors": 206,
+        "error_rate": 0.45374449339207046,
+        "false_positives": 195,
+        "false_negatives": 11
+      },
+      "over_10s": {
+        "samples": 115,
+        "errors": 55,
+        "error_rate": 0.4782608695652174,
+        "false_positives": 49,
+        "false_negatives": 6
+      }
+    },
+    "low_energy_group": {
+      "10_to_50pct": {
+        "samples": 27,
+        "errors": 15,
+        "error_rate": 0.5555555555555556,
+        "false_positives": 10,
+        "false_negatives": 5
+      },
+      "under_10pct": {
+        "samples": 722,
+        "errors": 328,
+        "error_rate": 0.45429362880886426,
+        "false_positives": 307,
+        "false_negatives": 21
+      }
+    },
+    "sample_rate_hz": {
+      "16000": {
+        "samples": 750,
+        "errors": 343,
+        "error_rate": 0.4573333333333333,
+        "false_positives": 317,
+        "false_negatives": 26
+      }
+    },
+    "language": {
+      "ara": {
+        "samples": 33,
+        "errors": 13,
+        "error_rate": 0.3939393939393939,
+        "false_positives": 12,
+        "false_negatives": 1
+      },
+      "ben": {
+        "samples": 26,
+        "errors": 10,
+        "error_rate": 0.38461538461538464,
+        "false_positives": 10,
+        "false_negatives": 0
+      },
+      "dan": {
+        "samples": 16,
+        "errors": 9,
+        "error_rate": 0.5625,
+        "false_positives": 8,
+        "false_negatives": 1
+      },
+      "deu": {
+        "samples": 42,
+        "errors": 20,
+        "error_rate": 0.47619047619047616,
+        "false_positives": 19,
+        "false_negatives": 1
+      },
+      "eng": {
+        "samples": 85,
+        "errors": 30,
+        "error_rate": 0.35294117647058826,
+        "false_positives": 27,
+        "false_negatives": 3
+      },
+      "fin": {
+        "samples": 21,
+        "errors": 6,
+        "error_rate": 0.2857142857142857,
+        "false_positives": 4,
+        "false_negatives": 2
+      },
+      "fra": {
+        "samples": 40,
+        "errors": 22,
+        "error_rate": 0.55,
+        "false_positives": 22,
+        "false_negatives": 0
+      },
+      "hin": {
+        "samples": 45,
+        "errors": 22,
+        "error_rate": 0.4888888888888889,
+        "false_positives": 22,
+        "false_negatives": 0
+      },
+      "ind": {
+        "samples": 37,
+        "errors": 15,
+        "error_rate": 0.40540540540540543,
+        "false_positives": 14,
+        "false_negatives": 1
+      },
+      "ita": {
+        "samples": 28,
+        "errors": 19,
+        "error_rate": 0.6785714285714286,
+        "false_positives": 18,
+        "false_negatives": 1
+      },
+      "jpn": {
+        "samples": 24,
+        "errors": 13,
+        "error_rate": 0.5416666666666666,
+        "false_positives": 12,
+        "false_negatives": 1
+      },
+      "kor": {
+        "samples": 28,
+        "errors": 14,
+        "error_rate": 0.5,
+        "false_positives": 13,
+        "false_negatives": 1
+      },
+      "mar": {
+        "samples": 29,
+        "errors": 19,
+        "error_rate": 0.6551724137931034,
+        "false_positives": 18,
+        "false_negatives": 1
+      },
+      "nld": {
+        "samples": 47,
+        "errors": 15,
+        "error_rate": 0.3191489361702128,
+        "false_positives": 14,
+        "false_negatives": 1
+      },
+      "nor": {
+        "samples": 15,
+        "errors": 7,
+        "error_rate": 0.4666666666666667,
+        "false_positives": 5,
+        "false_negatives": 2
+      },
+      "pol": {
+        "samples": 37,
+        "errors": 14,
+        "error_rate": 0.3783783783783784,
+        "false_positives": 12,
+        "false_negatives": 2
+      },
+      "por": {
+        "samples": 38,
+        "errors": 17,
+        "error_rate": 0.4473684210526316,
+        "false_positives": 16,
+        "false_negatives": 1
+      },
+      "rus": {
+        "samples": 33,
+        "errors": 17,
+        "error_rate": 0.5151515151515151,
+        "false_positives": 15,
+        "false_negatives": 2
+      },
+      "spa": {
+        "samples": 40,
+        "errors": 25,
+        "error_rate": 0.625,
+        "false_positives": 25,
+        "false_negatives": 0
+      },
+      "tur": {
+        "samples": 27,
+        "errors": 8,
+        "error_rate": 0.2962962962962963,
+        "false_positives": 8,
+        "false_negatives": 0
+      },
+      "ukr": {
+        "samples": 14,
+        "errors": 3,
+        "error_rate": 0.21428571428571427,
+        "false_positives": 3,
+        "false_negatives": 0
+      },
+      "vie": {
+        "samples": 23,
+        "errors": 11,
+        "error_rate": 0.4782608695652174,
+        "false_positives": 8,
+        "false_negatives": 3
+      },
+      "zho": {
+        "samples": 22,
+        "errors": 14,
+        "error_rate": 0.6363636363636364,
+        "false_positives": 12,
+        "false_negatives": 2
+      }
+    },
+    "synthetic": {
+      "False": {
+        "samples": 17,
+        "errors": 10,
+        "error_rate": 0.5882352941176471,
+        "false_positives": 9,
+        "false_negatives": 1
+      },
+      "True": {
+        "samples": 733,
+        "errors": 333,
+        "error_rate": 0.4542974079126876,
+        "false_positives": 308,
+        "false_negatives": 25
+      }
+    },
+    "midfiller": {
+      "<missing>": {
+        "samples": 39,
+        "errors": 18,
+        "error_rate": 0.46153846153846156,
+        "false_positives": 15,
+        "false_negatives": 3
+      },
+      "False": {
+        "samples": 339,
+        "errors": 151,
+        "error_rate": 0.44542772861356933,
+        "false_positives": 145,
+        "false_negatives": 6
+      },
+      "True": {
+        "samples": 372,
+        "errors": 174,
+        "error_rate": 0.46774193548387094,
+        "false_positives": 157,
+        "false_negatives": 17
+      }
+    },
+    "endfiller": {
+      "<missing>": {
+        "samples": 39,
+        "errors": 18,
+        "error_rate": 0.46153846153846156,
+        "false_positives": 15,
+        "false_negatives": 3
+      },
+      "False": {
+        "samples": 478,
+        "errors": 126,
+        "error_rate": 0.26359832635983266,
+        "false_positives": 103,
+        "false_negatives": 23
+      },
+      "True": {
+        "samples": 233,
+        "errors": 199,
+        "error_rate": 0.8540772532188842,
+        "false_positives": 199,
+        "false_negatives": 0
+      }
+    }
+  }
+}

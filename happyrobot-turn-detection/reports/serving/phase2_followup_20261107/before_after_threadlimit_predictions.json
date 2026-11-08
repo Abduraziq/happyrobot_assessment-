@@ -1,0 +1,28 @@
+{
+  "audio": {
+    "short.wav": {
+      "sha256": "254c7927170d15a3c77d2a942c418156cd734cad6e15c37f29f4577dc6e5a36f",
+      "features_exact": true,
+      "prediction_exact": true,
+      "feature_count": 45,
+      "probability": 0.005954129012172213,
+      "endpoint_bool": false
+    },
+    "average.wav": {
+      "sha256": "6b50613afabf139e33a8d794d8c90d3c44472a474767319d168063c6a286b590",
+      "features_exact": true,
+      "prediction_exact": true,
+      "feature_count": 45,
+      "probability": 0.004306914738939781,
+      "endpoint_bool": false
+    },
+    "average.flac": {
+      "sha256": "1ca9a474ff91734db8a5ebd38973bc2133df19743d6e9d7752f379ea0cb28437",
+      "features_exact": true,
+      "prediction_exact": true,
+      "feature_count": 45,
+      "probability": 0.004306914738939781,
+      "endpoint_bool": false
+    }
+  }
+}

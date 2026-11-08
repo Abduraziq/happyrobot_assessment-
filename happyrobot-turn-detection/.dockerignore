@@ -1,0 +1,11 @@
+**
+!Dockerfile
+!requirements-serving.txt
+!scripts/
+!scripts/extract_features.py
+!scripts/predict.py
+!scripts/serve.py
+!models/
+!models/baseline/
+!models/baseline/model_config.json
+!models/baseline/selected_model.joblib

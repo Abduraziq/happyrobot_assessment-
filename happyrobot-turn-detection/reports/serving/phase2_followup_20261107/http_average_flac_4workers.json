@@ -1,0 +1,146 @@
+{
+  "url": "http://127.0.0.1:8000/predict",
+  "environment": {
+    "platform": "Windows-10-10.0.27975-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "python": "3.10.11",
+    "fastapi": "0.115.0",
+    "uvicorn": "0.30.6",
+    "httpx": "0.27.2"
+  },
+  "audio": {
+    "filename": "average.flac",
+    "size_bytes": 43357,
+    "duration_seconds": 6.7534375,
+    "sample_rate_hz": 16000,
+    "channels": 1
+  },
+  "methodology": {
+    "sequential_requests": 100,
+    "requests_per_concurrency_level": 100,
+    "concurrency_levels": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "warm_connection_pool": true,
+    "same_audio_reused": true
+  },
+  "sequential": {
+    "concurrency": 1,
+    "requests": 100,
+    "successful_requests": 100,
+    "failed_requests": 0,
+    "wall_time_seconds": 6.378832099999954,
+    "requests_per_second": 15.676850939531818,
+    "http_request_latency_ms": {
+      "mean": 63.72525899999573,
+      "median": 59.67465000003358,
+      "p95": 91.71669000004384,
+      "p99": 110.55094000016226
+    },
+    "server_feature_extraction_ms": {
+      "mean": 31.68395699999337,
+      "median": 29.241150000075322,
+      "p95": 48.71991499991281,
+      "p99": 67.48137199993405
+    },
+    "server_model_only_inference_ms": {
+      "mean": 4.359323999992739,
+      "median": 3.762800000004063,
+      "p95": 7.503890000089085,
+      "p99": 12.449658999908031
+    },
+    "notes": "HTTP latency is measured client-side from request dispatch through response body receipt; server feature/model times are returned by the API.",
+    "errors": []
+  },
+  "concurrent": [
+    {
+      "concurrency": 2,
+      "requests": 100,
+      "successful_requests": 100,
+      "failed_requests": 0,
+      "wall_time_seconds": 3.2243641000000025,
+      "requests_per_second": 31.01386719942699,
+      "http_request_latency_ms": {
+        "mean": 63.98554700000204,
+        "median": 62.47659999996813,
+        "p95": 86.72293000010993,
+        "p99": 117.672804999943
+      },
+      "server_feature_extraction_ms": {
+        "mean": 29.733857000010175,
+        "median": 29.577049999943483,
+        "p95": 41.94871999989118,
+        "p99": 46.82217899987341
+      },
+      "server_model_only_inference_ms": {
+        "mean": 4.322687000001224,
+        "median": 4.200449999984812,
+        "p95": 6.215629999985595,
+        "p99": 6.6348550001044
+      },
+      "notes": "HTTP latency is measured client-side from request dispatch through response body receipt; server feature/model times are returned by the API.",
+      "errors": []
+    },
+    {
+      "concurrency": 4,
+      "requests": 100,
+      "successful_requests": 100,
+      "failed_requests": 0,
+      "wall_time_seconds": 2.1821643000000677,
+      "requests_per_second": 45.826063601167384,
+      "http_request_latency_ms": {
+        "mean": 86.1510579999981,
+        "median": 78.72450000002118,
+        "p95": 173.98857499985067,
+        "p99": 266.5723819998747
+      },
+      "server_feature_extraction_ms": {
+        "mean": 36.926608999995096,
+        "median": 38.438049999967916,
+        "p95": 57.44745499990813,
+        "p99": 62.02141900015249
+      },
+      "server_model_only_inference_ms": {
+        "mean": 5.5759699999885015,
+        "median": 5.699299999946561,
+        "p95": 8.725545000004331,
+        "p99": 13.208864999996882
+      },
+      "notes": "HTTP latency is measured client-side from request dispatch through response body receipt; server feature/model times are returned by the API.",
+      "errors": []
+    },
+    {
+      "concurrency": 8,
+      "requests": 100,
+      "successful_requests": 100,
+      "failed_requests": 0,
+      "wall_time_seconds": 1.5690462999998545,
+      "requests_per_second": 63.732982258082046,
+      "http_request_latency_ms": {
+        "mean": 121.31228299999748,
+        "median": 118.62760000008166,
+        "p95": 159.81662000004917,
+        "p99": 178.94298400015504
+      },
+      "server_feature_extraction_ms": {
+        "mean": 71.91858299998785,
+        "median": 68.50980000001528,
+        "p95": 104.02594999989105,
+        "p99": 109.05039700003276
+      },
+      "server_model_only_inference_ms": {
+        "mean": 8.23490700000093,
+        "median": 7.1464500000502085,
+        "p95": 13.912129999857823,
+        "p99": 22.64885900013959
+      },
+      "notes": "HTTP latency is measured client-side from request dispatch through response body receipt; server feature/model times are returned by the API.",
+      "errors": []
+    }
+  ]
+}

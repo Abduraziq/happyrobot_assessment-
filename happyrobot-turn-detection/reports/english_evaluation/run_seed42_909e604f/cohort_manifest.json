@@ -1,0 +1,39 @@
+{
+  "dataset": "pipecat-ai/smart-turn-data-v3-train",
+  "dataset_revision": "909e604f990651631a596f5cb03358b3ee8fbad0",
+  "stream_rows_scanned": 20000,
+  "selection_seed": 42,
+  "selection_method": "Filter to unique English metadata rows after excluding all IDs in existing train/validation/test splits; sort eligible IDs within each label and sample 400 per class using random.Random(42).",
+  "eligible_additional_candidates": {
+    "positive": 866,
+    "negative": 834
+  },
+  "invalid_english_rows_skipped": 0,
+  "duplicate_english_ids_skipped": 0,
+  "cohort_size": 800,
+  "positive": 400,
+  "negative": 400,
+  "selected_id_sha256_sorted_newline_delimited": "5683af05ba24d8ade049e631662e240dce072865a64ac2043ed0c047820727f4",
+  "approved_id_sha256": "5683af05ba24d8ade049e631662e240dce072865a64ac2043ed0c047820727f4",
+  "overlap_counts": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "synthetic_flag_counts": {
+    "true": 682,
+    "false": 118
+  },
+  "frozen_input_sha256": {
+    "models\\baseline\\selected_model.joblib": "571bcc8c604b85c1c62cdfea83c8371a375f9b06cc6e6317b0e8b6d9a2f431c1",
+    "models\\baseline\\model_config.json": "089337731fe14cecf84015b7f40cb47c0000e6ed41ffa4b87f64cdcebc5d1229",
+    "reports\\baseline\\test_metrics.json": "88859646d7cd608e48373d6fa8492f3b4d77372046503f6069854a8b6982adb0",
+    "reports\\baseline\\test_predictions.csv": "107be4b1a175b7efc8f29babf4311f6035f46659fc302ec433de29e21fd65d58",
+    "data\\metadata\\train.csv": "70bef7a3a4ceb55986c99a59702d1adc8c55d59addcef11bb4cc6c27c2b7f644",
+    "data\\processed\\train.csv": "70bef7a3a4ceb55986c99a59702d1adc8c55d59addcef11bb4cc6c27c2b7f644",
+    "data\\metadata\\validation.csv": "9a56580d1a5291677771163f0019c6e10a39a701cbf0c65fddf8de9d698e8bad",
+    "data\\processed\\validation.csv": "9a56580d1a5291677771163f0019c6e10a39a701cbf0c65fddf8de9d698e8bad",
+    "data\\metadata\\test.csv": "3c74d9468f57e3c27221d7c91e5cb0b7d1ab1f6ae9dcf87d729ab0e1ba39dd7a",
+    "data\\processed\\test.csv": "3c74d9468f57e3c27221d7c91e5cb0b7d1ab1f6ae9dcf87d729ab0e1ba39dd7a"
+  }
+}

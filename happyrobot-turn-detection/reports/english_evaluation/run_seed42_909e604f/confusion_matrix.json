@@ -1,0 +1,22 @@
+{
+  "label_order": [
+    "negative",
+    "positive"
+  ],
+  "rows": "actual",
+  "columns": "predicted",
+  "matrix": [
+    [
+      70,
+      330
+    ],
+    [
+      64,
+      336
+    ]
+  ],
+  "true_negative": 70,
+  "false_positive": 330,
+  "false_negative": 64,
+  "true_positive": 336
+}
